@@ -1,2 +1,2 @@
 # Senate-Of-Pakistan-Clone
-FullStackZone (www.fullstackzone.net) is working with our dedicated internees to develop a website clone for the Senate of Pakistan. The project focuses on improving accessibility, user experience, and overall functionality.
+**FullStackZone** (www.fullstackzone.net) is working on a **Senate of Pakistan website clone**. Our team, including talented internees supervised by **FullStackZone**, is focused on enhancing the site’s functionality, design, and user experience.
