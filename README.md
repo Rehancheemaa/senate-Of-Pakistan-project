@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,7 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
+
 # Senate-Of-Pakistan-Clone
 **FullStackZone** (www.fullstackzone.net) is working on a **Senate of Pakistan website clone**. Our team, including talented internees supervised by **FullStackZone**, is focused on enhancing the site’s functionality, design, and user experience.
 >>>>>>> dce982cad2549a285e26be13edebd15ded6a7820
