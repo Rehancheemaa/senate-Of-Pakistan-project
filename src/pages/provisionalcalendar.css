@@ -1,0 +1,209 @@
+.provisional-calendar {
+  padding: 25px;
+  font-family: 'Roboto', sans-serif; /* Modern sans-serif font for a clean look */
+  background-color: #f4f4f9; /* Softer light gray background for a fresher feel */
+  border-radius: 12px; /* Slightly more rounded edges for a smoother appearance */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for more depth */
+  transition: all 0.3s ease; /* Smooth transition for hover and focus */
+  max-width: 100%; /* Prevent overflow */
+}
+
+.provisional-calendar header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.provisional-calendar h1 {
+  color: #8b0000; /* A deep red for a bold and elegant look */
+  font-size: 32px; /* Larger font size for better readability */
+  font-weight: 700; /* Bolder text for emphasis */
+  letter-spacing: 1px; /* Slightly increased letter-spacing for a clean look */
+  margin-bottom: 10px;
+}
+
+.provisional-calendar p {
+  font-size: 18px; /* Increased font size for better readability */
+  color: #555; /* Slightly darker gray for better contrast */
+  line-height: 1.6; /* More space between lines for easier reading */
+  margin: 8px 0;
+}
+
+.provisional-calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff; /* White table background */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+.provisional-calendar table th,
+.provisional-calendar table td {
+  border: 1px solid #e1e1e1;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.provisional-calendar table th {
+  background-color: #8b0000; /* Deep red for a bold header */
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.provisional-calendar table tr:nth-child(even) {
+  background-color: #fafafa; /* Subtle alternate row colors */
+}
+
+.provisional-calendar table tr:hover {
+  background-color: #ffdcdc; /* Soft pink hover effect for interactivity */
+  cursor: pointer;
+}
+
+.provisional-calendar table tr:last-child td {
+  font-weight: 700;
+  background-color: #f1f1f1; /* Light gray for the last row */
+}
+
+@media (max-width: 1200px) {
+  .provisional-calendar {
+    padding: 20px;
+  }
+
+  .provisional-calendar h1 {
+    font-size: 30px;
+  }
+
+  .provisional-calendar p {
+    font-size: 16px;
+  }
+
+  .provisional-calendar table th,
+  .provisional-calendar table td {
+    padding: 14px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .provisional-calendar {
+    padding: 18px;
+  }
+
+  .provisional-calendar h1 {
+    font-size: 28px;
+  }
+
+  .provisional-calendar p {
+    font-size: 15px;
+  }
+
+  .provisional-calendar table th,
+  .provisional-calendar table td {
+    padding: 13px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .provisional-calendar {
+    padding: 20px 15px;
+  }
+
+  .provisional-calendar h1 {
+    font-size: 26px;
+  }
+
+  .provisional-calendar p {
+    font-size: 14px;
+  }
+
+  .provisional-calendar table th,
+  .provisional-calendar table td {
+    padding: 12px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .provisional-calendar {
+    padding: 10px; /* Reduced padding for small screens */
+    font-size: 14px; /* Slightly smaller font size */
+  }
+
+  .provisional-calendar h1 {
+    font-size: 20px; /* Smaller heading for better fit */
+    margin-bottom: 8px; /* Adjusted margin */
+  }
+
+  .provisional-calendar p {
+    font-size: 12px; /* Smaller text for paragraphs */
+    line-height: 1.4; /* Reduced line height to fit content */
+  }
+
+  .provisional-calendar table {
+    font-size: 10px; /* Compact font size for table */
+  }
+
+  .provisional-calendar table th,
+  .provisional-calendar table td {
+    padding: 8px; /* Reduced padding for table cells */
+    font-size: 10px; /* Reduced font size for better readability */
+  }
+
+  .provisional-calendar table th {
+    font-size: 11px; /* Slightly larger header font */
+  }
+
+  .provisional-calendar table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Keep alternating row colors */
+  }
+
+  .provisional-calendar table tr:hover {
+    background-color: #ffdcdc; /* Subtle hover effect */
+  }
+}
+
+@media (max-width: 375px) {
+  .provisional-calendar {
+    padding: 8px; /* Minimal padding for ultra-small screens */
+    font-size: 13px; /* Reduced font size for tight spaces */
+  }
+
+  .provisional-calendar h1 {
+    font-size: 18px; /* Smaller font size for headers */
+    margin-bottom: 6px; /* Less margin to save space */
+  }
+
+  .provisional-calendar p {
+    font-size: 10px; /* Further reduced paragraph font size */
+    line-height: 1.3; /* Adjusted line height for readability */
+  }
+
+  .provisional-calendar table {
+    font-size: 9px; /* Very compact table font size */
+  }
+
+  .provisional-calendar table th,
+  .provisional-calendar table td {
+    padding: 6px; /* Minimum padding to keep the table tight */
+    font-size: 10px; /* Smaller text size for table cells */
+  }
+
+  .provisional-calendar table th {
+    font-size: 9px; /* Slightly larger text for header cells */
+  }
+
+  .provisional-calendar table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Keep alternating row colors */
+  }
+
+  .provisional-calendar table tr:hover {
+    background-color: #ffdcdc; /* Light hover effect */
+  }
+}
+

@@ -1,0 +1,155 @@
+/* CSS File: HouseBusiness.css */
+
+/* Main Content */
+.content {
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid Layout for Content */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for desktop */
+    gap: 20px;
+}
+
+/* Feature Card (previously 'card') */
+.feature-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+.feature-card h1 {
+    margin-bottom: 10px;
+    color: #8b0000;
+}
+
+/* Info Card (previously 'card') */
+.info-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+.info-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #8b0000;
+}
+
+.info-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Highlight Card (previously 'card') */
+.highlight-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+.highlight-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #8b0000;
+}
+
+.highlight-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer Styling */
+.footer-section {
+    background-color: #8b0000;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .footer-section a{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+  }
+  .footer-section a:hover{
+    text-decoration: underline;
+    background-color: #ffcccb;
+    color: #8b0000;
+    font-weight:bold ;
+    border-radius: 50px;
+  }
+
+/* Sub Navigation Styling */
+.sub-navigation {
+    background-color: #b22222;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    /* margin: 10px; */
+    /* margin-top: 0px; */
+}
+
+.sub-navigation button {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    /* margin: 0px; */
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.sub-navigation button:hover {
+    background-color: #ffcccb;
+    color: #8b0000;
+}
+
+/* .sub-navigation button.active {
+    background-color: #5e0f02;
+} */
+
+.sub-navigation button:focus {
+    outline: none;
+}
+
+/* Responsive: For mobile and smaller screens, use one column layout */
+@media (max-width: 768px) {
+    .content-grid {
+        grid-template-columns: 1fr; /* Single column for small screens */
+    }
+}

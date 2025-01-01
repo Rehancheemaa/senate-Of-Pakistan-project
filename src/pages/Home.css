@@ -1,0 +1,411 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Add spacing between rows */
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    /* Add spacing between columns */
+}
+
+.section {
+    flex: 1 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 3px solid #8b0000;
+    border-radius: 8px;
+}
+
+.section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.title {
+    /* margin-top: 10px; */
+    font-size: 17px;
+    color: #ffffff;
+    background: #8b0000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.list-item {
+    margin-bottom: 5px;
+}
+.list-item a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.list-item a:hover {
+    text-decoration: underline;
+    color: #8b0000;
+    font-weight: bold;
+}
+/* Sidebar */
+.sidebar {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.card-body {
+    padding: 20px;
+    border: 3px solid #8b0000;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.card-title {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    /* background: #8b0000; */
+    background: #8b0000;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-unstyled li {
+    border-bottom: 1px solid #ddd;
+}
+/* Link Styling */
+.list-unstyled li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.list-unstyled li a:hover {
+    color: #8b0000;
+    text-decoration: underline;
+    font-weight: bold;
+    /* text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); */
+}
+
+/* Carousel Image Styles */
+.carousel img {
+    height: 500px;
+    /* Adjusted height for better presentation */
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    /* Ensures images fill the container without distortion */
+}
+
+/* General styles for the carousel captions */
+.carousel-caption p {
+    font-size: 1.4rem;
+    /* Larger font size for readability */
+    color: #ffffff;
+    /* White text */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Slightly lighter transparent background */
+    padding: 15px 20px;
+    /* Add padding for readability */
+    border-radius: 8px;
+    /* Rounded corners */
+    line-height: 1.6;
+    /* Improve text readability */
+    text-align: center;
+    /* Center-align text */
+    margin: 0 auto;
+    max-width: 80%;
+    /* Restrict the text width */
+}
+
+/* Adjust styles for smaller devices */
+@media (max-width: 1024px) {
+    .carousel-caption p {
+        font-size: 1.2rem;
+        /* Smaller font size for tablets */
+        padding: 12px 18px;
+        /* Adjust padding */
+    }
+
+    .carousel-inner img {
+        height: 350px;
+        /* Reduce image height on tablets */
+    }
+    .carousel-caption {
+        bottom: 10%;
+        /* Adjust the position of captions for mobile */
+    }
+
+    .carousel-inner img {
+        height: 250px;
+        /* Further reduce height for mobile */
+    }
+
+}
+
+
+/* Customize navigation controls for better visibility */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+    /* Makes arrows white for better contrast */
+}
+
+/* Home Page Layout */
+
+/* Home Container Styles */
+/* .home-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+/* Header styles */
+.header {
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+
+/* Content layout */
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Main content section */
+.main-content {
+    flex: 1 1 65%;
+}
+
+
+/* Section styles */
+/* .section {
+    margin-bottom: 40px;
+} */
+
+/* Image styles for sections */
+/* .section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+} */
+
+/* Heading styles */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Paragraph and list styles */
+p {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Sidebar styles */
+.sidebar-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.sidebar-section ul {
+    padding-left: 20px;
+}
+
+.sidebar-section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        /* Stack content vertically */
+        gap: 15px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sidebar {
+        /* width: 100%; */
+        max-width: 1000px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+}
+
+/* Adjust styles for very small devices (mobile phones) */
+@media (max-width: 768px) {
+    .main-content {
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+        gap: 20px; /* Add spacing between sections */
+    }
+
+    .row {
+        flex-direction: column; /* Stack rows in one column */
+        gap: 20px; /* Add spacing between sections */
+    }
+
+    .section {
+        flex: 1 1 100%; /* Take full width of the container */
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 3px solid #8b0000;
+        border-radius: 8px;
+    }
+    /* Adjust the font size on smaller screens for better readability */
+    .carousel-caption p {
+        /* font-size: 1rem; */
+        padding: 8px 12px;
+        max-width: 100%;
+        font-size: 10px;
+        /* width: 300px; */
+        /* font-style: revert-layer; */
+        /* font-weight: bolder;*/
+    }
+
+    /* Adjust the carousel image height for smaller screens */
+    .carousel img {
+        height: 350px;
+        /* Smaller height on mobile */
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+        /* Adjust the position of captions for mobile */
+    }
+
+    .carousel-inner img {
+        height: 250px;
+        /* Further reduce height for mobile */
+    }
+
+    /* Padding for small screens */
+    /* .container {
+        padding: 0 10px; 
+    } */
+}
+
+
+/* Adjustments for small screens */
+@media (max-width: 576px) {
+
+    /* Further reduce font size and padding on very small screens */
+    .carousel-caption p {
+        max-width: 100%;
+        font-size: 10px;
+        /* width: 300px; */
+        /* font-style: revert-layer; */
+        /* font-weight: bolder;*/
+    }
+
+    /* Further reduce the carousel image height */
+    .carousel img {
+        height: 300px;
+        /* Even smaller height on very small screens */
+    }
+
+    .home-container {
+        padding: 8px;
+        /* Reduce padding for small screens */
+    }
+
+    .section-image {
+        height: 250px;
+        /* Control section image size */
+    }
+
+    
+}
+@media (max-width: 375px) { 
+    .header {
+      flex-wrap: wrap; /* Wrap elements for very small screens */
+      justify-content: center;
+      /* gap: 5px; */
+    }
+    .logo {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .navbar-links {
+      flex-wrap: wrap;
+      font-size: 12px; /* Smaller font size */
+      gap: 5px;
+    }
+  
+    .searchtxt {
+     width: 170px; /* Further reduce width for smaller screens */
+    }
+  
+    .social-icons {
+      flex-wrap: wrap; /* Allow social icons to wrap */
+      gap: 5px;
+    }
+  }
