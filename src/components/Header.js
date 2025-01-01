@@ -16,12 +16,7 @@ const Header = () => {
   const toggleSubNav = () => {
     setIsSubNavOpen(!isSubNavOpen); // Toggle sub-navigation for House Business
   };
-
-  const goTo = (path, button) => {
-    setIsSubNavOpen(false); // Close sub-navigation when navigating
-    navigate(path);
-  };
-
+  
   const navLinks = [
     { name: 'Home', path: '/home' },
     { name: 'House Business', path: '/HouseBusiness', hasSubNav: true },
@@ -95,86 +90,6 @@ const Header = () => {
               >
                 {link.name}
               </a>
-              {link.hasSubNav && isSubNavOpen && (
-                <div className="sub-navigation">
-                  <button
-                    onClick={() => goTo('/provisionalcalendar', 'ProvisionalCalendar')}
-                    className={isActive('/provisionalcalendar') ? 'active' : ''}
-                  >
-                    Provisional Calendar
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/SummoningPage', 'SummoningPage')}
-                    className={isActive('/SummoningPage') ? 'active' : ''}
-                  >
-                    Summoning / Prorogation
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/Orderoftheday', 'Orderoftheday')}
-                    className={isActive('/Orderoftheday') ? 'active' : ''}
-                  >
-                    Orders of the Day
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/QuestionsAnswers', 'QuestionsAnswersAnswers')}
-                    className={isActive('/QuestionsAnswers') ? 'active' : ''}
-                  >
-                    Questions/Answers
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/hansards', 'Hansards')}
-                    className={isActive('/hansards') ? 'active' : ''}
-                  >
-                    Hansards
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/acts', 'ActsOfParliament')}
-                    className={isActive('/acts') ? 'active' : ''}
-                  >
-                    Acts of Parliament
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/resolutions', 'Resolutions')}
-                    className={isActive('/resolutions') ? 'active' : ''}
-                  >
-                    Resolutions
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/bills', 'Bills')}
-                    className={isActive('/bills') ? 'active' : ''}
-                  >
-                    Bills
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/amendments', 'ConstitutionalAmendments')}
-                    className={isActive('/amendments') ? 'active' : ''}
-                  >
-                    Constitutional Amendments
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/webcasting', 'WebCasting')}
-                    className={isActive('/webcasting') ? 'active' : ''}
-                  >
-                    Web Casting
-                  </button>
-                  |
-                  <button
-                    onClick={() => goTo('/ordinances', 'Ordinances')}
-                    className={isActive('/ordinances') ? 'active' : ''}
-                  >
-                    Ordinances
-                  </button>
-                </div>
-              )}
             </li>
           ))}
         </ul>

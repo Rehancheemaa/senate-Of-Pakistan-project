@@ -1,98 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../components/Header';
 import './HouseBusiness.css';
-import { useNavigate } from 'react-router-dom';
 
 const HouseBusiness = () => {
-  const [activeButton, setActiveButton] = useState('');
-  const navigate = useNavigate();
 
-  const goTo = (path, buttonName) => {
-    setActiveButton(buttonName); // Set active button
-    navigate(path);
-  };
 
   return (
     <>
       <Header />
-      <div className="sub-navigation">
-        <button
-          onClick={() => goTo('/provisionalcalendar', 'ProvisionalCalendar')}
-          className={activeButton === 'ProvisionalCalendar' ? 'active' : ''}
-        >
-          Provisional Calendar
-        </button>
-        |
-        <button
-          onClick={() => goTo('/SummoningPage', 'SummoningPage')}
-          className={activeButton === 'SummoningPage' ? 'active' : ''}
-        >
-          Summoning / Prorogation
-        </button>
-        |
-        <button
-          onClick={() => goTo('/Orderoftheday', 'Orderoftheday')}
-          className={activeButton === 'Orderoftheday' ? 'active' : ''}
-        >
-          Orders of the Day
-        </button>
-        |
-        <button
-          onClick={() => goTo('/QuestionsAnswers', 'QuestionsAnswersAnswers')}
-          className={activeButton === 'QuestionsAnswersAnswers' ? 'active' : ''}
-        >
-          Questions/Answers
-        </button>
-        |
-        <button
-          onClick={() => goTo('/hansards', 'Hansards')}
-          className={activeButton === 'Hansards' ? 'active' : ''}
-        >
-          Hansards
-        </button>
-        |
-        <button
-          onClick={() => goTo('/acts', 'ActsOfParliament')}
-          className={activeButton === 'ActsOfParliament' ? 'active' : ''}
-        >
-          Acts of Parliament
-        </button>
-        |
-        <button
-          onClick={() => goTo('/resolutions', 'Resolutions')}
-          className={activeButton === 'Resolutions' ? 'active' : ''}
-        >
-          Resolutions
-        </button>
-        |
-        <button
-          onClick={() => goTo('/bills', 'Bills')}
-          className={activeButton === 'Bills' ? 'active' : ''}
-        >
-          Bills
-        </button>
-        |
-        <button
-          onClick={() => goTo('/amendments', 'ConstitutionalAmendments')}
-          className={activeButton === 'ConstitutionalAmendments' ? 'active' : ''}
-        >
-          Constitutional Amendments
-        </button>
-        |
-        <button
-          onClick={() => goTo('/webcasting', 'WebCasting')}
-          className={activeButton === 'WebCasting' ? 'active' : ''}
-        >
-          Web Casting
-        </button>
-        |
-        <button
-          onClick={() => goTo('/ordinances', 'Ordinances')}
-          className={activeButton === 'Ordinances' ? 'active' : ''}
-        >
-          Ordinances
-        </button>
-      </div>
 
       <div className="content">
         <div className="content-grid">
