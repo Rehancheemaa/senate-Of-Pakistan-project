@@ -105,6 +105,7 @@ const Home = () => {
                                 <div class="section">
                                     <h2 class="title">Governance of the Senate</h2>
                                     <img src="https://www.app.com.pk/wp-content/uploads/2024/02/senate_pakistan_cover-1024x688.jpeg" alt="Governance of the Senate" class="image" />
+                                    <br/>
                                     <p>
                                         Chairman Senate, Finance Committee, Business Advisory Committee and Secretary Senate are collectively
                                         responsible for the Senate Administration.
@@ -119,6 +120,7 @@ const Home = () => {
                                 <div class="section">
                                     <h2 class="title">The Work of the Senate</h2>
                                     <img src="https://www.senate.gov.pk/en/images/fos.png" alt="Governance of the Senate" class="image" />
+                                    <br/>
                                     <p>
                                         The Senate is the second chamber of the Parliament. It is independent from, and complements the work
                                         of, the National Assembly.
@@ -136,6 +138,7 @@ const Home = () => {
                                 <div class="section">
                                     <h2 class="title">The Chairman</h2>
                                     <img src="https://newsimage.radio.gov.pk/20240424/15039440651713951605.jpg" alt="Governance of the Senate" class="image" />
+                                    <br/>
                                     <p>Understand the role, history and current activities of the Chairman.</p>
                                     <ul class="list">
                                         <li class="list-item"><a href="/chairman" target="_blank">The Chairman</a></li>
@@ -150,6 +153,7 @@ const Home = () => {
                                 <div class="section">
                                     <h2 class="title">Members of the Senate</h2>
                                     <img src="https://i.tribune.com.pk/media/images/senate-app-file1705238293-0/senate-app-file1705238293-0.jpg" alt="Governance of the Senate" class="image" />
+                                    <br/>
                                     <p>Members of Senate are elected to represent, defend and promote national interests.</p>
                                     <ul class="list">
                                         <li class="list-item"><a href="/senators-list" target="_blank">List of Senators</a></li>

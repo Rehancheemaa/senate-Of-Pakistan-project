@@ -59,6 +59,37 @@
     text-decoration: underline; /* Underline the link */
 }
 
+/* Social icons styles */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content:center;
+  }
+  
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #b22222;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: #ffcccb;
+    color: rgb(0, 0, 0);
+  }
+  
+  .social-icons svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+
 .footer-bottom {
     background-color: #8b0000;
     text-align: center;
@@ -73,7 +104,7 @@
     color: white;
     text-decoration: none;
     padding: 7px;
-
+    border-radius: 50px;
 }
 
 

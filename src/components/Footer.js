@@ -84,7 +84,24 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+            <div className="social-icons">
+                        <a href="https://mail.senate.gov.pk/" target="_blank" rel="noopener noreferrer" title="Senate Official Email" className="social-icon">
+                            <i className="fa fa-envelope"></i>
+                        </a>
+                        <a href="https://www.facebook.com/Pakistansenate/" target="_blank" rel="noopener noreferrer" title="Facebook" className="social-icon">
+                            <i className="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://x.com/Senatepakistan" target="_blank" rel="noopener noreferrer" title="X" className="social-icon">
+                            <i className="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/c/senateofpakistanofficial" target="_blank" rel="noopener noreferrer" title="YouTube" className="social-icon">
+                            <i className="fa fa-youtube"></i>
+                        </a>
+                    </div>
             <div className="footer-bottom">
+                <div>
+
+                </div>
                 <p>
                     <a href="#glossary">Glossary</a> | <a href="#sitemap">Site Map</a> | <a href="#terms">Terms of Use</a> | <a href="#disclaimer">Disclaimer</a> | <a href="#privacy">Privacy Policy</a>
                     <br />

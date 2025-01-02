@@ -1,0 +1,56 @@
+.senate-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.senate-container h1 {
+  color: #8b0000;
+  /* Deep red for a bold and elegant look */
+  font-size: clamp(26px, 5vw, 36px);
+  /* Responsive font size */
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.senate-container p {
+  text-align: center;
+  font-size: clamp(16px, 2.5vw, 20px);
+  /* Dynamically adjust font size */
+  color: #333;
+  /* Slightly darker text for readability */
+  line-height: 1.8;
+  margin-bottom: 25px;
+  padding: 0 15px;
+  /* Add spacing for smaller devices */
+}
+
+/* Footer Styles */
+.footer-bottom {
+  background-color: #8b0000;
+  text-align: center;
+  margin-top: 30px;
+  font-size: clamp(12px, 2vw, 14px);
+  color: white;
+  border-top: 2px solid #ddd;
+  padding: 15px 0;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px 12px;
+  border-radius: 5px;
+  /* transition: background-color 0.3s ease, transform 0.2s ease; */
+}
+
+.footer-bottom a:hover {
+  background-color: #ffcccb;
+  /* Subtle hover effect */
+  color: #8b0000;
+  transform: scale(1.05);
+  /* Slight zoom on hover */
+}

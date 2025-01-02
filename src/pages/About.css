@@ -2,125 +2,148 @@
 
 /* Layout container */
 .about-container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  /* Row for sidebar and content */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Row for sidebar and content */
+.about-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Sidebar styles */
+.about-sidebar {
+  flex: 1;
+  max-width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.about-card {
+  padding: 20px;
+}
+
+.about-card-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Styling for active state of list items */
+.about-list-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.about-list-item:hover {
+  background-color: #8b0000;
+  color: white;
+}
+
+/* Active list item styles */
+.about-list-item.active {
+  background-color: #8b0000;
+  color: white;
+}
+
+
+/* Main content styles */
+.about-content {
+  flex: 2;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.about-content h2{
+  color: #8b0000; /* Deep red for a bold and elegant look */
+  font-size: clamp(26px, 5vw, 36px); /* Responsive font size */
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.about-content p{
+  text-align: center;
+  font-size: clamp(16px, 2.5vw, 20px); /* Dynamically adjust font size */
+  color: #333; /* Slightly darker text for readability */
+  line-height: 1.8;
+  margin-bottom: 25px;
+  padding: 0 15px; /* Add spacing for smaller devices */
+}
+
+/* Footer styles */
+.footer-bottom {
+  background-color: #8b0000;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: white;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+  background-color: #ffcccb;
+  color: #8b0000;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
   .about-row {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-top: 20px;
+      flex-direction: row;
   }
-  
-  /* Sidebar styles */
+}
+
+@media (max-width: 768px) {
+  .about-row {
+    flex-direction: column;
+}
   .about-sidebar {
-    flex: 1;
-    max-width: 300px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+      max-width: 100%;
   }
-  
-  .about-card {
-    padding: 20px;
-  }
-  
-  .about-card-header {
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .about-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .about-list-item {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .about-list-item:hover {
-    background-color: #f1f1f1;
-  }
-  
-  /* Main content styles */
+
   .about-content {
-    flex: 2;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  /* Footer styles */
-  .footer-bottom {
-    background-color: #8b0000;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-    color: white;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
-  }
-  
-  .footer-bottom a {
-    color: white;
-    text-decoration: none;
-    padding: 7px;
-  }
-  
-  .footer-bottom a:hover {
-    text-decoration: underline;
-    background-color: #ffcccb;
-    color: #8b0000;
-    font-weight: bold;
-    border-radius: 50px;
-  }
-  
-  /* Responsive styles */
-  @media (max-width: 992px) {
-    /* For tablets and medium screens */
-    .about-row {
-      flex-direction: column; /* Stack sidebar and content vertically */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    /* For small screens */
-    .about-sidebar {
-      max-width: 100%; /* Sidebar takes full width */
-    }
-  
-    .about-content {
-      padding: 15px; /* Reduce padding for smaller screens */
-    }
-  }
-  
-  @media (max-width: 576px) {
-    /* For very small screens (mobile) */
-    .about-container {
-      padding: 10px;
-    }
-  
-    .about-card {
       padding: 15px;
-    }
-  
-    .about-content {
-      padding: 10px;
-    }
-  
-    .footer-bottom {
-      font-size: 10px; /* Smaller font size for footer */
-      padding-top: 5px;
-    }
   }
-  
+}
+
+@media (max-width: 576px) {
+  .about-row {
+    flex-direction: column;
+}
+  .about-container {
+      padding: 10px;
+  }
+
+  .about-card {
+      padding: 15px;
+  }
+
+  .about-content {
+      padding: 10px;
+  }
+
+  .footer-bottom {
+      font-size: 10px;
+      padding-top: 5px;
+  }
+}

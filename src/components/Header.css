@@ -34,7 +34,7 @@
 .navbar-links li a {
   color: white;
   text-decoration: none;
-  padding: 8px 15px;
+  padding: 8px 10px;
   
 }
 
@@ -132,7 +132,6 @@
   width: 40px;
   height: 40px;
   background-color: white;
-  border-radius: 50%;
   color: #8b0000;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
@@ -141,6 +140,9 @@
 .social-icons a:hover {
   background-color: #ffcccb;
   color: rgb(0, 0, 0);
+  border-radius: 50px;
+  transform: scale(1.05); /* Slight zoom on hover */
+
 }
 
 .social-icons svg {

@@ -31,6 +31,7 @@
     padding: 20px;
     border: 3px solid #8b0000;
     border-radius: 8px;
+    height: 640px;
 }
 
 .section img {
@@ -52,6 +53,7 @@
 .list {
     list-style-type: disc;
     padding-left: 20px;
+    padding-top: 16px;
 }
 
 .list-item {
@@ -72,7 +74,7 @@
 .sidebar {
     width: 100%;
     max-width: 300px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     font-family: Arial, sans-serif;
 }
 
