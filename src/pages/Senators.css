@@ -1,8 +1,7 @@
 /* Container Styles */
 .senators-container {
     padding: 20px;
-    max-width: 1200px; /* Limit the width for readability */
-    margin: 0 auto; /* Center content */
+    margin: 20px; /* Center content */
     box-sizing: border-box;
     background-color: #f9f9f9; /* Soft background for better contrast */
     border-radius: 10px; /* Rounded corners for a modern look */

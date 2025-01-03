@@ -1,0 +1,124 @@
+/* General Styles */
+.terms-of-use {
+    padding: 20px;
+    margin: 20px; /* Center content */
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Soft background for better contrast */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .terms-of-use h1 {
+    color: #8b0000;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+  
+  .terms-of-use h2 {
+    color: #8b0000;
+    font-size: 1.8em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .terms-of-use p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #444;
+  }
+  
+  /* Hyperlinks */
+  .terms-of-use a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .terms-of-use a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button-like links (if you want to add 'Contact Us' or 'Join Now' as buttons) */
+  .terms-of-use .button-link {
+    color: #fff;
+    background-color: #2980b9;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .terms-of-use .button-link:hover {
+    background-color: #1d6fa5;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media only screen and (max-width: 1200px) {
+    .terms-of-use {
+      padding: 15px;
+    }
+  
+    .terms-of-use h1 {
+      font-size: 2em;
+    }
+  
+    .terms-of-use h2 {
+      font-size: 1.5em;
+    }
+  
+    .terms-of-use p {
+      font-size: 1em;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .terms-of-use {
+      padding: 10px;
+    }
+  
+    .terms-of-use h1 {
+      font-size: 1.8em;
+    }
+  
+    .terms-of-use h2 {
+      font-size: 1.3em;
+    }
+  
+    .terms-of-use p {
+      font-size: 1em;
+    }
+  
+    .terms-of-use .button-link {
+      padding: 12px 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .terms-of-use {
+      padding: 10px;
+    }
+  
+    .terms-of-use h1 {
+      font-size: 1.6em;
+    }
+  
+    .terms-of-use h2 {
+      font-size: 1.2em;
+    }
+  
+    .terms-of-use p {
+      font-size: 0.95em;
+    }
+  
+    .terms-of-use .button-link {
+      padding: 10px 15px;
+    }
+
+  }
+  

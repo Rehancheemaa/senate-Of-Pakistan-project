@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import "./SenateCommittees.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faBook,
+  faSitemap,
+  faGavel,
+  faExclamationTriangle,
+  faUserShield,
+} from '@fortawesome/free-solid-svg-icons';
 
 const SenateCommittees = () => {
   const [search, setSearch] = useState("");
@@ -104,9 +112,8 @@ const SenateCommittees = () => {
             <button
               key={index}
               onClick={() => handlePageChange(index + 1)}
-              className={`pagination-button ${
-                currentPage === index + 1 ? "active-page" : ""
-              }`}
+              className={`pagination-button ${currentPage === index + 1 ? "active-page" : ""
+                }`}
             >
               {index + 1}
             </button>
@@ -122,13 +129,17 @@ const SenateCommittees = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>
-          <a href="#glossary">Glossary</a> | <a href="#sitemap">Site Map</a> | <a href="#terms">Terms of Use</a> | <a href="#disclaimer">Disclaimer</a> | <a href="#privacy">Privacy Policy</a>
-          <br />
-          <br />
-          Copyright © 2019-2024. All Rights Reserved. Senate of Pakistan.
-        </p>
-      </div>
+                <p>
+                    <a href="/glossary"><FontAwesomeIcon icon={faBook} /> Glossary</a> |
+                    <a href="/sitemap"><FontAwesomeIcon icon={faSitemap} /> Site Map</a> |
+                    <a href="/terms"><FontAwesomeIcon icon={faGavel} /> Terms of Use</a> |
+                    <a href="/disclaimer"><FontAwesomeIcon icon={faExclamationTriangle} /> Disclaimer</a> |
+                    <a href="/privacy"><FontAwesomeIcon icon={faUserShield} /> Privacy Policy</a>
+                    <br />
+                    <br />
+                    Copyright © 2019-2024. All Rights Reserved. Senate of Pakistan.
+                </p>
+            </div>
     </>
   );
 };

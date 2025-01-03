@@ -1,0 +1,133 @@
+/* General Styles */
+.disclaimer {
+    padding: 20px;
+    margin: 20px;
+    /* Center content */
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    /* Soft background for better contrast */
+    border-radius: 10px;
+    /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+  }
+  
+  .disclaimer h1 {
+    color: #8b0000;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+  
+  .disclaimer h2 {
+    color: #8b0000;
+    font-size: 1.8em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .disclaimer h3 {
+    font-size: 1.4em;
+    margin-top: 20px;
+  }
+  
+  .disclaimer h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .disclaimer p,
+  .disclaimer ul {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #444;
+  }
+  
+  .disclaimer a {
+    color: #8b0000;
+    text-decoration: none;
+  }
+  
+  .disclaimer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Address Section */
+  .disclaimer address {
+    font-style: normal;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media only screen and (max-width: 1200px) {
+    .disclaimer {
+      padding: 15px;
+    }
+  
+    .disclaimer h1 {
+      font-size: 2em;
+    }
+  
+    .disclaimer h2 {
+      font-size: 1.5em;
+    }
+  
+    .disclaimer p,
+    .disclaimer ul {
+      font-size: 1em;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .disclaimer {
+      padding: 10px;
+    }
+  
+    .disclaimer h1 {
+      font-size: 1.8em;
+    }
+  
+    .disclaimer h2 {
+      font-size: 1.4em;
+    }
+  
+    .disclaimer p,
+    .disclaimer ul {
+      font-size: 1em;
+    }
+  
+    .disclaimer address {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .disclaimer {
+      padding: 10px;
+    }
+  
+    .disclaimer h1 {
+      font-size: 1.6em;
+    }
+  
+    .disclaimer h2 {
+      font-size: 1.3em;
+    }
+  
+    .disclaimer p,
+    .disclaimer ul {
+      font-size: 0.95em;
+    }
+  
+    .disclaimer address {
+      font-size: 0.8em;
+    }
+  }
+  

@@ -34,7 +34,7 @@
 .navbar-links li a {
   color: white;
   text-decoration: none;
-  padding: 8px 10px;
+  padding: 8px 8px;
   
 }
 
@@ -70,6 +70,7 @@
 .logo-text h1 {
   margin: 0;
   font-size: 24px;
+  color: white;
 }
 
 .logo-text p {
@@ -94,6 +95,7 @@
   gap: 10px;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 10px;
 }
 
 .searchtxt {
@@ -101,22 +103,28 @@
   border-radius: 20px;
   border: 1px solid #ddd;
   outline: none;
-  width: 100%;
-  max-width: 300px;
+  width: 200px;
 }
 
 .searchbtn {
   padding: 10px 15px;
-  background-color: white;
-  color: #8b0000;
+  background-color: #b22222;
+  color: #fff;
   border: none;
-  border-radius: 20px;
+  border-radius: 50px;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .searchbtn:hover {
   background-color: #ffcccb;
-  color: white;
+  color: #8b0000;
+  border-radius: 50px;
+  transform: scale(1.05); /* Slightly enlarge text on hover */
+}
+.searchbtn i, /* For CDN */
+.searchbtn svg { /* For React Font Awesome */
+  font-size: 20px;
 }
 
 /* Social icons styles */
@@ -139,10 +147,9 @@
 
 .social-icons a:hover {
   background-color: #ffcccb;
-  color: rgb(0, 0, 0);
+  color: #8b0000;
   border-radius: 50px;
-  transform: scale(1.05); /* Slight zoom on hover */
-
+  transform: scale(1.05); /* Slightly enlarge text on hover */
 }
 
 .social-icons svg {
@@ -255,7 +262,7 @@
     gap: 15px;
   } */
   .navbar-links li {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
 
   }

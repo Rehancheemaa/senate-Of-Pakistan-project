@@ -1,0 +1,107 @@
+/* Global Styles */
+.site-map-container {
+    padding: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Soft background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.site-map-title {
+    text-align: center;
+    color: #900;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* 3x3 Grid Layout */
+.site-map {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between items */
+}
+
+.site-map-column {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+h3 {
+    color: #900;
+    border-bottom: 2px solid #900;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    color: #555;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+    transition: color 0.3s ease-in-out;
+}
+
+ul li:hover {
+    color: #900;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+
+/* Tablet View (768px and smaller) */
+@media screen and (max-width: 768px) {
+    .site-map {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+}
+
+/* Small Mobile View (480px and smaller) */
+@media screen and (max-width: 480px) {
+    .site-map {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+
+    .site-map-title {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    ul li {
+        font-size: 0.85rem;
+    }
+}
+
+/* Extra Small Devices (320px and smaller) */
+@media screen and (max-width: 320px) {
+    .site-map-container {
+        padding: 10px;
+    }
+
+    .site-map-title {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+    ul li {
+        font-size: 0.75rem;
+        margin-bottom: 3px;
+    }
+}

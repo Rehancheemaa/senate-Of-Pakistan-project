@@ -80,15 +80,72 @@
   }
   
   .social-icons a:hover {
+    transform: scale(1.05); /* Slightly enlarge text on hover */
     background-color: #ffcccb;
-    color: rgb(0, 0, 0);
+    color: #8b0000;
   }
   
   .social-icons svg {
     width: 20px;
     height: 20px;
   }
-  
+  /* Container for social icons and contact */
+.footer-contact-row {
+    display: flex;
+    justify-content: space-evenly; /* Space between icons and contact info */
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    margin-top: 20px; /* Add spacing from other sections */
+    gap: 20px; /* Optional: space between items */
+}
+
+/* Contact information styling */
+.footer-contact {
+    display: flex;
+    flex-direction: column; /* Align text vertically */
+    text-align: left; /* Align text to the left */
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-contact a{
+    color: #ffffff;
+    font-weight: 500;
+}
+.footer-contact a:hover {
+    padding: 5px;
+    border-radius: 5px;
+    color: #8b0000; /* Light red on hover */
+    transform: scale(1.05); /* Slightly enlarge text on hover */
+    font-weight: bold; /* Emphasize text on hover */
+}
+.email-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease; /* Add a hover effect */
+}
+
+.email-link:hover {
+    color: #ffcccb; /* Light red on hover */
+}
+/* Footer contact hover effects */
+.footer-contact p {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #b22222;
+    color: #ffffff; /* Light red on hover */
+    margin: 5px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-contact p:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffcccb;
+    color: #8b0000; /* Light red on hover */
+    transform: scale(1.05); /* Slightly enlarge text on hover */
+    font-weight: bold; /* Emphasize text on hover */
+}
+ 
 
 .footer-bottom {
     background-color: #8b0000;
@@ -128,6 +185,14 @@
     }
 
     .footer-column h4 {
+        text-align: center;
+    }
+    .footer-contact-row {
+        flex-direction: column; /* Stack on smaller screens */
+        text-align: center;
+    }
+
+    .footer-contact {
         text-align: center;
     }
 }

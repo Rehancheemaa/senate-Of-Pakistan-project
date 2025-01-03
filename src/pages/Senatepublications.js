@@ -167,9 +167,8 @@ const SenatePublications = () => {
             <button
               key={index}
               onClick={() => handlePageChange(index + 1)}
-              className={`pagination-button ${
-                currentPage === index + 1 ? "active-page" : ""
-              }`}
+              className={`pagination-button ${currentPage === index + 1 ? "active-page" : ""
+                }`}
             >
               {index + 1}
             </button>
@@ -186,7 +185,11 @@ const SenatePublications = () => {
 
       <div className="footer-bottom">
         <p>
-          <a href="#glossary">Glossary</a> | <a href="#sitemap">Site Map</a> | <a href="#terms">Terms of Use</a> | <a href="#disclaimer">Disclaimer</a> | <a href="#privacy">Privacy Policy</a>
+          <a href="/glossary">Glossary</a> |
+          <a href="/sitemap">Site Map</a> |
+          <a href="/terms">Terms of Use</a> |
+          <a href="/disclaimer">Disclaimer</a> |
+          <a href="/privacy">Privacy Policy</a>
           <br />
           <br />
           Copyright © 2019-2024. All Rights Reserved. Senate of Pakistan.

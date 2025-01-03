@@ -1,6 +1,11 @@
 /* General container styling */
 .table-container {
   padding: 20px;
+    margin: 20px; /* Center content */
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Soft background for better contrast */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Header section */

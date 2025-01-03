@@ -8,6 +8,11 @@ import About from './pages/About';
 import MediaCentre from './pages/MediaCentre';
 import SenateInvolved from './pages/SenateInvolved';
 import Senatepublications from './pages/Senatepublications';
+import Glossary from './pages/Glossary';
+import SiteMap from './pages/SiteMap';
+import TermsOfUse from './pages/TermsOfUse';
+import Disclaimer from './pages/Disclaimer';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 const App = () => {
   return (
@@ -22,6 +27,13 @@ const App = () => {
         <Route path="/Senatepublications" element={<Senatepublications />} />
         <Route path="/MediaCentre" element={<MediaCentre />} />
         <Route path="/SenateInvolved" element={<SenateInvolved />} />
+
+        {/*Footer Pages routes*/}
+        <Route path="/glossary" element={<Glossary />} />
+        <Route path="/sitemap" element={<SiteMap />} />
+        <Route path="/terms" element={<TermsOfUse />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );
