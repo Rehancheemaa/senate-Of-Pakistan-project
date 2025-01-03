@@ -6,7 +6,7 @@
 
 <img src="https://raw.githubusercontent.com/your-repo/SenateOfPakistan/main/screenshots/banner.png" />
 
-## [https://senate-of-pakistan-clone.netlify.app/](https://senate-of-pakistan-clone.netlify.app/)
+<!-- ## [https://senate-of-pakistan-clone.netlify.app/](https://senate-of-pakistan-clone.netlify.app/) -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/senate-of-pakistan-clone/deploys)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/your-repo/SenateOfPakistan?color=%23b624ff)
