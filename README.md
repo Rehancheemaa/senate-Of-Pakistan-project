@@ -4,7 +4,7 @@
 
 # Senate Of Pakistan
 
-<img src="./src/assects/images/localhost_3000_home.png" />
+<img src="./src/assects/images/homepage.png" />
 
 <!-- ## [https://senate-of-pakistan-clone.netlify.app/](https://senate-of-pakistan-clone.netlify.app/) -->
 
