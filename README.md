@@ -1,75 +1,102 @@
+<!-- <p align="center">
+<img src="https://raw.githubusercontent.com/your-repo/SenateOfPakistan/main/public/logo.png" width="128px" />
+</p> -->
 
-# Getting Started with Create React App
+# Senate Of Pakistan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/your-repo/SenateOfPakistan/main/screenshots/banner.png" />
 
-## Available Scripts
+## [https://senate-of-pakistan-clone.netlify.app/](https://senate-of-pakistan-clone.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/senate-of-pakistan-clone/deploys)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/your-repo/SenateOfPakistan?color=%23b624ff)
+![GitHub created at](https://img.shields.io/github/created-at/your-repo/SenateOfPakistan?color=%23b624ff)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-repo/SenateOfPakistan?color=%23b624ff)
+
+---
+
+## 💻 Tech Stack
+
+<ul style="display: flex; flex-direction: column; gap:10px;">
+  <li style="vertical-align: middle;">
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=react" alt="react" width="24" style="vertical-align: middle; margin-right: 4px;" /> React
+  </li>
+  <li style="vertical-align: middle;">
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=typescript" alt="typescript" width="20" style="vertical-align: middle;margin-right: 4px;" /> JavaScript
+  </li>
+  <li style="vertical-align: middle;">
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=mui" alt="mui" width="24" style="vertical-align: middle;margin-right: 4px;" /> Material UI (MUI)
+  </li>
+</ul>
+
+---
+
+## ⚡ Features
+
+### 🗳️ Explore Senate Functionality
+The app allows users to explore various aspects of the Senate of Pakistan, including detailed information about senators, committees, and legislative actions.
+
+### 🌐 Responsive Design
+The project features a responsive design for an optimal experience on devices of all sizes.
+
+### 📥 Progressive Web App (PWA)
+The app is installable and provides offline access for enhanced usability.
+
+### 🎨 Theme Customization
+Switch between light and dark modes to suit your preference.
+
+---
+
+## 📜 Available Scripts
 
 In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder. It bundles React in production mode and optimizes performance.
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Copies configuration files for customization. Use with caution as it is a one-way operation.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👨‍💻 Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To install and run the project locally:
 
-## Learn More
+```bash
+# Clone the repository
+$ git clone https://github.com/your-repo/SenateOfPakistan.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Navigate to the project directory
+$ cd SenateOfPakistan
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+$ yarn install
 
-### Code Splitting
+# Start the development server
+$ yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🙌 Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is being developed by **FullStackZone** with the collaboration of talented internees, enhancing the functionality, design, and user experience of the Senate of Pakistan's website.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔗 Learn More
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# Senate-Of-Pakistan-Clone
-**FullStackZone** (www.fullstackzone.net) is working on a **Senate of Pakistan website clone**. Our team, including talented internees supervised by **FullStackZone**, is focused on enhancing the site’s functionality, design, and user experience.
->>>>>>> dce982cad2549a285e26be13edebd15ded6a7820
+- [React Documentation](https://reactjs.org/)
+- [Create React App Documentation](https://create-react-app.dev/)
+- [Material UI Documentation](https://mui.com/)
