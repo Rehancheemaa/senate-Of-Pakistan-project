@@ -4,14 +4,14 @@
 
 # Senate Of Pakistan
 
-<img src="https://raw.githubusercontent.com/your-repo/SenateOfPakistan/main/screenshots/banner.png" />
+<img src="./src/assects/images/localhost_3000_home.png" />
 
 <!-- ## [https://senate-of-pakistan-clone.netlify.app/](https://senate-of-pakistan-clone.netlify.app/) -->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/senate-of-pakistan-clone/deploys)
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/senate-of-pakistan-clone/deploys)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/your-repo/SenateOfPakistan?color=%23b624ff)
 ![GitHub created at](https://img.shields.io/github/created-at/your-repo/SenateOfPakistan?color=%23b624ff)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-repo/SenateOfPakistan?color=%23b624ff)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-repo/SenateOfPakistan?color=%23b624ff) -->
 
 ---
 
