@@ -6,12 +6,8 @@
 
 <img src="./src/assects/images/homepage.png" />
 
-<!-- ## [https://senate-of-pakistan-clone.netlify.app/](https://senate-of-pakistan-clone.netlify.app/) -->
-
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/senate-of-pakistan-clone/deploys)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/your-repo/SenateOfPakistan?color=%23b624ff)
-![GitHub created at](https://img.shields.io/github/created-at/your-repo/SenateOfPakistan?color=%23b624ff)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-repo/SenateOfPakistan?color=%23b624ff) -->
+## Live Demo
+[https://senate-of-pakistan-project.vercel.app](https://senate-of-pakistan-project.vercel.app)
 
 ---
 
@@ -42,27 +38,32 @@ The project features a responsive design for an optimal experience on devices of
 ### 📥 Progressive Web App (PWA)
 The app is installable and provides offline access for enhanced usability.
 
-### 🎨 Theme Customization
-Switch between light and dark modes to suit your preference.
-
 ---
 
 ## 📜 Available Scripts
 
 In the project directory, you can run:
 
+### `npm start`
+or
 ### `yarn start`
 
 Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+### `npm test`
+or
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.
 
+### `npm build`
+or
 ### `yarn build`
 
 Builds the app for production to the `build` folder. It bundles React in production mode and optimizes performance.
 
+### `npm eject`
+or
 ### `yarn eject`
 
 Copies configuration files for customization. Use with caution as it is a one-way operation.
@@ -81,22 +82,11 @@ $ git clone https://github.com/your-repo/SenateOfPakistan.git
 $ cd SenateOfPakistan
 
 # Install dependencies
+$ npm install
+or
 $ yarn install
 
 # Start the development server
+$ npm start
+or
 $ yarn start
-```
-
----
-
-## 🙌 Contributors
-
-This project is being developed by **FullStackZone** with the collaboration of talented internees, enhancing the functionality, design, and user experience of the Senate of Pakistan's website.
-
----
-
-## 🔗 Learn More
-
-- [React Documentation](https://reactjs.org/)
-- [Create React App Documentation](https://create-react-app.dev/)
-- [Material UI Documentation](https://mui.com/)
